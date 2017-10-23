@@ -1,1 +1,1 @@
-This IS a Sample Spring Boot Web application for building Docker Image
+This IS a Sample Spring Boot Web application building using jenkins, maven and docker. Running inside a docker container and exposed to outside world.
