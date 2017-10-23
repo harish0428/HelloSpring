@@ -12,9 +12,9 @@ public class Application {
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);
 	}
-        @RequestMapping(value="/")
+        @RequestMapping(value="/rest/docker/hello")
         public String Demo(){
-            return "Welcome to DockerBuild";
+            return "Welcome to DockerWorld";
    }
 
  }
